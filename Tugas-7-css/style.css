@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(Stupa_borobudur.jpg);
+	display: flex;
+	float: right;
+	flex-direction: column;
+}
+.justify{
+	text-align: justify;
+}
+.repeat{
+	background-image: url(avocado.jpg);
+	background-repeat: repeat;
+	width: 700px;
+	height: 110px;
+	border: 2px solid red;
+}
+.container{
+	background-image: url(avocado.jpg);
+	width: 700px;
+	height: 450px;
+	/*float: right;*/
+	margin-right: 50px;
+	margin-top: 20px;
+	border: 2px solid red;
+	color: blue;
+}
